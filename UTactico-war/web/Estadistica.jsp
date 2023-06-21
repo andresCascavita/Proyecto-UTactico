@@ -16,10 +16,10 @@
             body {
                 font-family: cursive;
                 text-align: center;
-                background-color: darkgrey;
+                background-color: aliceblue;
             }
             h1 {
-                color:  aquamarine
+                color:  blue;
             }
 
 
@@ -62,8 +62,11 @@
                     </tr>
                 </c:forEach> 
             </table>
-
-            <BR>
+            
+            <p>
+                Ingrese los datos para generar la estadistica
+            </p>
+            
             <br>
             <table style="position: absolute ; left: 10% "> 
                 <tr>

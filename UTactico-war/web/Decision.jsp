@@ -16,10 +16,10 @@
             body {
                 font-family: cursive;
                 text-align: center;
-                background-color: darkgrey;
+                background-color: aliceblue;
             }
             h1 {
-                color:  aquamarine
+                color:  black;
             }
 
 
@@ -64,10 +64,11 @@
                     </tr>
                 </c:forEach> 
             </table>
-
-            <BR>
             <br>
-            <table style="position: absolute ; left: 10% "> 
+            <h3>Ingrese los datos para la decision</h3>
+            
+            <br>
+            <table style="position: absolute ; left: 30% "> 
                 <tr>
                     <td>  <label for="id">ID:</label></td>
                     <td>   <input type="text" name="id" value="${decision.id}" id="id" required><br><br></td>
@@ -75,11 +76,22 @@
                 <tr>
 
                 <tr>
-                    <td>  <label for="senalizacion">Señalizacion:</label></td>
-                    <td>   <input type="text" name="senalizacion" value="${decision.senalizacion}" id="senalizacion" required><br><br></td>
+                    <td><label for="senalizacion">Señalizacion:</label></td>
+                    <td><select type="text" name="senalizacion" value="${decision.senalizacion}" id="senalizacion" required><br><br>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Vertical Preventiva"> Vertical Preventiva</option>
+                    <option value="Reglamentaria">Reglamentaria</option>
+                    <option value="Informativa">Informativa</option>
+                    <option value="Transversal">Transversal</option>
+                    <option value="Ninguna">niguna</option>
+                </select></td>
+
+                <br>
+
                 </tr>
                 <tr>
                     <td> <label for="decision">Decision:</label></td>
+                    <br>
                     <td>  <input type="text" name="decision" value="${decision.decision}" id="decision" required><br><br></td>
                 </tr> 
 

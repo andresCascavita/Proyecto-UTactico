@@ -30,7 +30,7 @@
     <form>
         <br>
  
-        <a href="http://localhost:8080/UTactico-war/BorrarReporteServlet"><input type="button" value="Borar Reporte" style="background-color: #fff;margin: 20px auto;width: 200px;height: 80px;line-height: 80px; border-radius: 10px;" ></a>
+        <a href="http://localhost:8080/UTactico-war/BorrarReporteServlet"><input type="button" value="Borrar Reporte" style="background-color: #fff;margin: 20px auto;width: 200px;height: 80px;line-height: 80px; border-radius: 10px;" ></a>
         <br>
         <a href="http://localhost:8080/UTactico-war/EstadisticaServlet"><input type="button" value="Agregar Estadisticas" style="background-color: #fff; margin: 20px auto;width: 200px;height: 80px;line-height: 80px; border-radius: 10px;"></a>
 

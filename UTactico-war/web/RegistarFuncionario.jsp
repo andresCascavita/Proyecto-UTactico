@@ -16,7 +16,7 @@
             body {
                 font-family: cursive;
                 text-align: center;
-                background-color: lightblue;
+                background-color: greenyellow;
             }
             h1 {
                 color: #333;
